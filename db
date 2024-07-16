@@ -1,0 +1,70 @@
+{
+    "environments": {
+        "dev": {
+            "modules": [{
+                "home":{
+                    "sections": [{
+                        "navbar": {
+                            "options": [{
+                                "option": "home",
+                                "isActive": true
+                            },
+                            {
+                                "option": "perfil",
+                                "isActive": true
+                            },
+                            {
+                                "option": "about",
+                                "isActive": true
+                            }]
+                        } 
+                    }]
+                } 
+            }]
+        },
+        "qa": {
+            "modules": [{
+                "home":{
+                    "sections": [{
+                        "navbar": {
+                            "options": [{
+                                "option": "home",
+                                "isActive": true
+                            },
+                            {
+                                "option": "perfil",
+                                "isActive": true
+                            },
+                            {
+                                "option": "about",
+                                "isActive": true
+                            }]
+                        } 
+                    }]
+                } 
+            }]
+        },
+        "prod": {
+            "modules": [{
+                "home":{
+                    "sections": [{
+                        "navbar": {
+                            "options": [{
+                                "option": "home",
+                                "isActive": true
+                            },
+                            {
+                                "option": "profile",
+                                "isActive": true
+                            },
+                            {
+                                "option": "about",
+                                "isActive": false
+                            }]
+                        } 
+                    }]
+                } 
+            }]
+        }
+    }
+}
