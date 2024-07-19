@@ -1,69 +1,87 @@
 {
     "environments": {
         "dev": {
-            "modules": [{
-                "home":{
-                    "sections": [{
-                        "navbar": {
-                            "options": [{
-                                "option": "home",
-                                "isActive": true
-                            },
-                            {
-                                "option": "perfil",
-                                "isActive": true
-                            },
-                            {
-                                "option": "about",
-                                "isActive": true
-                            }]
-                        } 
+            "platforms": [{
+                "mobile": [{
+                    "student": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }],
+                    "scores": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
                     }]
-                } 
+                }],
+                "web": [{
+                    "asideMenu": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }],
+                    "reports": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }]
+                }]
             }]
         },
         "qa": {
-            "modules": [{
-                "home":{
-                    "sections": [{
-                        "navbar": {
-                            "options": [{
-                                "option": "home",
-                                "isActive": true
-                            },
-                            {
-                                "option": "perfil",
-                                "isActive": true
-                            },
-                            {
-                                "option": "about",
-                                "isActive": true
-                            }]
-                        } 
+            "platforms": [{
+                "mobile": [{
+                    "student": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }],
+                    "scores": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
                     }]
-                } 
+                }],
+                "web": [{
+                    "asideMenu": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }],
+                    "reports": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }]
+                }]
             }]
         },
         "prod": {
-            "modules": [{
-                "home":{
-                    "sections": [{
-                        "navbar": {
-                            "options": [{
-                                "option": "home",
-                                "isActive": true
-                            },
-                            {
-                                "option": "profile",
-                                "isActive": true
-                            },
-                            {
-                                "option": "about",
-                                "isActive": false
-                            }]
-                        } 
+            "platforms": [{
+                "mobile": [{
+                    "student": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }],
+                    "scores": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
                     }]
-                } 
+                }],
+                "web": [{
+                    "asideMenu": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }],
+                    "reports": [{
+                        "flag": true
+                    }, {
+                        "flag1": false
+                    }]
+                }]
             }]
         }
     }
